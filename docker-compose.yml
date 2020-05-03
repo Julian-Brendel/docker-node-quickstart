@@ -1,0 +1,12 @@
+version: '3'
+services:
+  node:
+    build: .
+    ports:
+      - "8000:8000"
+    container_name: node
+  node-2:
+    build: .
+    ports:
+      - "9000:8000"
+    container_name: node-2
