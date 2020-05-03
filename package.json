@@ -1,0 +1,23 @@
+{
+  "name": "docker-node-quickstart",
+  "version": "1.0.0",
+  "description": "Quickstart for docker using node",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julian-Brendel/docker-node-quickstart.git"
+  },
+  "author": "Julian Brendel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Julian-Brendel/docker-node-quickstart/issues"
+  },
+  "homepage": "https://github.com/Julian-Brendel/docker-node-quickstart#readme"
+}
